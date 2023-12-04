@@ -9,13 +9,15 @@ logging.basicConfig(
 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a Gabriella, please talk to me!")
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="I'm a Gabriella, I can talk fun story! Click /FunStory if you wonna it."
+                                                                          " \n Я Габриелла. Я знаю смешные истории. Нажми на /FunStory если хочешь.")
 
 async def _help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id, text="I can talk fun story. click /FunStory")
 
 async def fun_story(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="You wonna amuse God  - tell him about your plan for life :)")
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="You wonna amuse God, so tell him about your plan for life :)"
+                                                                          "\n Если хочешь рассмешить бога - расскажи ему о своих планах на жизнь :)")
 
 
 if __name__ == '__main__':
