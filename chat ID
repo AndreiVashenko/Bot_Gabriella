@@ -1,0 +1,8 @@
+'chat_id' = {int} 6044383569
+'text' = {str} 'You wonna amuse God, so tell him about your plan for life :)\n Если хочешь рассмешить бога - расскажи ему о своих планах на жизнь :)'
+__len__ = {int} 2
+
+'https://api.telegram.org/bot6414293222:AAHaU0kLcmya5GIqyhWZYcdiYCLf3O0c_rg/sendMessage'
+
+
+('POST', 'https://api.telegram.org/bot6414293222:AAHaU0kLcmya5GIqyhWZYcdiYCLf3O0c_rg/getUpdates')
